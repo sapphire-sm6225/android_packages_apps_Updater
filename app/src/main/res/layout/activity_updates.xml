@@ -15,7 +15,7 @@
         android:fitsSystemWindows="true"
         android:outlineAmbientShadowColor="@android:color/transparent"
         android:outlineSpotShadowColor="@android:color/transparent"
-        android:background="?android:attr/colorPrimary"
+        android:background="?attr/colorSurface"
         android:theme="@style/Theme.CollapsingToolbar.Settings">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
@@ -25,7 +25,7 @@
             android:clipToPadding="false"
             app:forceApplySystemWindowInsetTop="true"
             app:extraMultilineHeightEnabled="true"
-            app:contentScrim="@color/toolbar_collapsed"
+            app:contentScrim="?attr/colorSurfaceContainer"
             app:maxLines="3"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
             app:scrimAnimationDuration="50"
