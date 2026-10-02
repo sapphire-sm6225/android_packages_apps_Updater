@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fork-only strings, kept apart from strings.xml to avoid upstream merge conflicts -->
+<resources>
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_load_failed">Couldn\'t load the changelog. Check your connection, or open it in the browser.</string>
+    <string name="changelog_open_in_browser">Open in browser</string>
+</resources>
