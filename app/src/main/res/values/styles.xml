@@ -5,6 +5,7 @@
         <item name="android:windowLightStatusBar">@bool/theme_is_light</item>
         <item name="android:windowLightNavigationBar">@bool/theme_is_light</item>
         <item name="alertDialogTheme">@style/AppTheme.AlertDialogTheme</item>
+        <item name="popupMenuBackground">@drawable/bg_popup_menu</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -21,7 +22,8 @@
         <item name="android:dropDownHorizontalOffset">-16dp</item>
     </style>
 
-    <style name="AppTheme.AlertDialogTheme" parent="Theme.Material3.DayNight.Dialog.Alert">
-        <item name="dialogCornerRadius">16dp</item>
+    <!-- Overlay (not a full theme) so the dialog keeps the wallpaper-based dynamic colors -->
+    <style name="AppTheme.AlertDialogTheme" parent="ThemeOverlay.Material3.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/bg_dialog</item>
     </style>
 </resources>

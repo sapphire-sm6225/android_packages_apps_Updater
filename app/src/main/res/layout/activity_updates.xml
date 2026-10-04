@@ -15,8 +15,7 @@
         android:fitsSystemWindows="true"
         android:outlineAmbientShadowColor="@android:color/transparent"
         android:outlineSpotShadowColor="@android:color/transparent"
-        android:background="?attr/colorSurface"
-        android:theme="@style/Theme.CollapsingToolbar.Settings">
+        android:background="?attr/colorSurface">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar"

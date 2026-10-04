@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Material 3 dialog surface: dynamic color, 28dp corners, same 16dp window inset as Material's own -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="16dp"
+    android:insetTop="16dp"
+    android:insetRight="16dp"
+    android:insetBottom="16dp">
+    <shape android:shape="rectangle">
+        <corners android:radius="28dp" />
+        <solid android:color="?attr/colorSurfaceContainerHigh" />
+    </shape>
+</inset>
